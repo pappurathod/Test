@@ -10,7 +10,7 @@ then
 else
 	for (( j=2; j<$i; j++ ))
 	do
-	        ans=$(($i%j))
+	        #ans=$(($i%j))
 
 	        if [ $((i%j)) -eq 0 ]
 	        then
